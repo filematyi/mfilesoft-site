@@ -1,4 +1,5 @@
 import React, { createRef, Component } from "react";
+import LabeledInput from '../../components/inputs/LabeledInput';
 
 class LeftPanel extends Component {  
     render() {  
@@ -86,7 +87,15 @@ class LeftPanel extends Component {
               }}  
               spellCheck={false}  
             />  
-          </div>  
+          </div>
+          <LabeledInput  
+            label="API Version:"  
+            name="apiVersion"  
+            value={apiVersion}  
+            onChange={e => onChange("apiVersion", e.target.value)}  
+            placeholder="Optional (for Azure OpenAI)"  
+            boldLabel  
+          />  
         </div>  
       );  
     }  
