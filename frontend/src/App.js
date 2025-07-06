@@ -1,8 +1,8 @@
 import React from 'react';  
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';  
-import Home from './views/home/Home'; // Example component for one site  
+import Home from './pages/home/Home'; // Example component for one site  
 //import GptChat from './views/gpt_chat/GptChat'; // Another example component for another site  
-import GptChat from './views/gpt_chat/GptChat';
+import GptChat from './pages/gpt_chat/GptChat';
 import Contact from './Contact'; // Example for a third site  
  
 function App() {  

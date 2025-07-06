@@ -26,7 +26,7 @@ function LabeledInput({
         name={name}  
         placeholder={placeholder}  
         value={value}  
-        onChange={e => onChange(name, e.target.value)}  
+        onChange={onChange}
         spellCheck={false}  
         {...inputProps}  
       />  

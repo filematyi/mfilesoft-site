@@ -1,4 +1,5 @@
-import React, { createRef, Component } from "react";  
+import React, { Component } from "react";  
+
 
 class RightPanel extends Component {  
     render() {  
@@ -107,7 +108,7 @@ class RightPanel extends Component {
                   background: "#fafbfc"  
                 }}  
               />  
-            </div>  
+            </div>
             {/* User message input */}  
             <textarea  
               rows={2}  
